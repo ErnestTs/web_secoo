@@ -1,0 +1,169 @@
+body {
+  width: 12.63rem;
+  background: #ededed; }
+
+.nheader {
+  background: white;
+  height: 1.74rem;
+  width: 12.63rem; }
+  .nheader .topbanner {
+    height: 0.9rem;
+    width: 11.99rem;
+    padding: 0.2rem 0.32rem;
+    text-align: center; }
+    .nheader .topbanner .topbannerLeft {
+      float: left; }
+      .nheader .topbanner .topbannerLeft img {
+        height: 0.88rem;
+        width: 0.88rem;
+        float: left; }
+      .nheader .topbanner .topbannerLeft div {
+        float: left;
+        margin-left: 0.06rem; }
+        .nheader .topbanner .topbannerLeft div p {
+          font-size: 0.16rem;
+          line-height: 0.18rem; }
+        .nheader .topbanner .topbannerLeft div .wordLittle {
+          font-size: 0.12rem;
+          line-height: 0.24rem; }
+    .nheader .topbanner .logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -0.25rem; }
+      .nheader .topbanner .logo img {
+        height: 0.90rem;
+        width: 0.36rem; }
+    .nheader .topbanner .topbannerRight {
+      position: relative;
+      float: right;
+      font-size: 0.12rem;
+      line-height: 0.12rem;
+      height: 100%; }
+      .nheader .topbanner .topbannerRight span {
+        color: #f8a120; }
+      .nheader .topbanner .topbannerRight a {
+        font-weight: bold; }
+        .nheader .topbanner .topbannerRight a:hover {
+          color: #f8a120; }
+      .nheader .topbanner .topbannerRight .login, .nheader .topbanner .topbannerRight #help {
+        float: left;
+        margin-right: 0.3rem; }
+      .nheader .topbanner .topbannerRight #help {
+        position: relative; }
+        .nheader .topbanner .topbannerRight #help:hover ul {
+          display: block; }
+        .nheader .topbanner .topbannerRight #help:hover i {
+          transform: rotate(180deg); }
+        .nheader .topbanner .topbannerRight #help i {
+          display: inline-block;
+          font-size: 0.12rem;
+          color: #f8a120;
+          transition: 0.5s; }
+        .nheader .topbanner .topbannerRight #help ul {
+          display: none;
+          overflow: hidden;
+          z-index: 2;
+          background: #fff;
+          border: #f8a120 1px solid;
+          text-align: left;
+          position: absolute;
+          left: -0.13rem;
+          top: 0.15rem;
+          width: 1.5rem;
+          padding-top: 0.05rem;
+          padding-bottom: 0.05rem;
+          padding-left: 0.12rem; }
+          .nheader .topbanner .topbannerRight #help ul li, .nheader .topbanner .topbannerRight #help ul span {
+            font-size: 0.12rem;
+            height: 0.22rem;
+            line-height: 0.22rem;
+            color: #999; }
+            .nheader .topbanner .topbannerRight #help ul li a, .nheader .topbanner .topbannerRight #help ul span a {
+              color: #666; }
+              .nheader .topbanner .topbannerRight #help ul li a:hover, .nheader .topbanner .topbannerRight #help ul span a:hover {
+                color: #f8a120; }
+      .nheader .topbanner .topbannerRight .shoppingCar {
+        position: absolute;
+        top: 50%;
+        right: 0rem; }
+  .nheader .nav-bar {
+    width: 11.99rem;
+    height: 0.44rem;
+    background: #1a191e;
+    padding: 0 0.32rem; }
+    .nheader .nav-bar .nav li {
+      line-height: 0.44rem;
+      font-size: 0.14rem;
+      float: left;
+      padding-left: 0.4rem; }
+      .nheader .nav-bar .nav li a {
+        color: white; }
+    .nheader .nav-bar .search {
+      width: 2.24rem;
+      height: 0.38rem;
+      background: white;
+      float: right;
+      margin: 0.03rem 0; }
+      .nheader .nav-bar .search input {
+        height: 100%;
+        width: 1.85rem;
+        border: 0;
+        margin-left: 0.1rem; }
+      .nheader .nav-bar .search a {
+        float: right;
+        margin-top: 0.07rem;
+        margin-right: 0.11rem; }
+      .nheader .nav-bar .search img {
+        width: 0.16rem;
+        height: 0.16rem; }
+
+.webBody {
+  width: 12rem;
+  margin: 0 auto;
+  overflow: hidden; }
+  .webBody #pageTitle {
+    padding-top: 0.25rem;
+    padding-bottom: 0.2rem; }
+    .webBody #pageTitle #PTLeft {
+      line-height: 0.2rem;
+      float: left; }
+      .webBody #pageTitle #PTLeft span {
+        margin: 0.1rem; }
+      .webBody #pageTitle #PTLeft a:hover {
+        color: #e93b39; }
+    .webBody #pageTitle #PTRight {
+      float: right; }
+  .webBody #goodsContents {
+    padding: 0.4rem;
+    background: #fff;
+    margin-bottom: 0.3rem; }
+    .webBody #goodsContents #infoLeft {
+      float: left; }
+    .webBody #goodsContents #infoRight {
+      float: left; }
+
+.nfooter {
+  background: #f5f5f5;
+  padding: 1.1rem 0.3rem; }
+  .nfooter li {
+    float: left;
+    width: 2.36rem; }
+    .nfooter li a {
+      line-height: 0.32rem;
+      font-size: 0.14rem;
+      font-weight: normal; }
+      .nfooter li a:hover {
+        color: #f8a120; }
+  .nfooter .nfooter-info {
+    float: left;
+    font-size: 0.14rem;
+    line-height: 0.36rem;
+    margin-top: 0.25rem; }
+    .nfooter .nfooter-info p span {
+      margin-right: 0.32rem; }
+    .nfooter .nfooter-info .nfooter-info-imgs {
+      margin-top: 0.08rem; }
+      .nfooter .nfooter-info .nfooter-info-imgs img {
+        width: 1.08rem;
+        height: 0.4rem;
+        margin-right: 0.2rem; }

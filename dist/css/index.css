@@ -1,0 +1,294 @@
+.active a {
+  color: #f8a120 !important; }
+
+.activeBtn {
+  background: #f8a120 !important; }
+
+body {
+  width: 12.63rem; }
+
+.nheader {
+  height: 1.74rem;
+  width: 12.63rem; }
+  .nheader .topbanner {
+    height: 0.9rem;
+    width: 11.99rem;
+    padding: 0.2rem 0.32rem;
+    text-align: center; }
+    .nheader .topbanner .topbannerLeft {
+      float: left; }
+      .nheader .topbanner .topbannerLeft img {
+        height: 0.88rem;
+        width: 0.88rem;
+        float: left; }
+      .nheader .topbanner .topbannerLeft div {
+        float: left;
+        margin-left: 0.06rem; }
+        .nheader .topbanner .topbannerLeft div p {
+          font-size: 0.16rem;
+          line-height: 0.18rem; }
+        .nheader .topbanner .topbannerLeft div .wordLittle {
+          font-size: 0.12rem;
+          line-height: 0.24rem; }
+    .nheader .topbanner .logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -0.25rem; }
+      .nheader .topbanner .logo img {
+        height: 0.90rem;
+        width: 0.36rem; }
+    .nheader .topbanner .topbannerRight {
+      position: relative;
+      float: right;
+      font-size: 0.12rem;
+      line-height: 0.12rem;
+      height: 100%; }
+      .nheader .topbanner .topbannerRight span {
+        color: #f8a120; }
+      .nheader .topbanner .topbannerRight a {
+        font-weight: bold; }
+        .nheader .topbanner .topbannerRight a:hover {
+          color: #f8a120; }
+      .nheader .topbanner .topbannerRight .login, .nheader .topbanner .topbannerRight #help {
+        float: left;
+        margin-right: 0.3rem; }
+      .nheader .topbanner .topbannerRight #help {
+        position: relative; }
+        .nheader .topbanner .topbannerRight #help:hover ul {
+          display: block; }
+        .nheader .topbanner .topbannerRight #help:hover i {
+          transform: rotate(180deg); }
+        .nheader .topbanner .topbannerRight #help i {
+          display: inline-block;
+          font-size: 0.12rem;
+          color: #f8a120;
+          transition: 0.5s; }
+        .nheader .topbanner .topbannerRight #help ul {
+          display: none;
+          overflow: hidden;
+          z-index: 2;
+          background: #fff;
+          border: #f8a120 1px solid;
+          text-align: left;
+          position: absolute;
+          left: -0.13rem;
+          top: 0.15rem;
+          width: 1.5rem;
+          padding-top: 0.05rem;
+          padding-bottom: 0.05rem;
+          padding-left: 0.12rem; }
+          .nheader .topbanner .topbannerRight #help ul li, .nheader .topbanner .topbannerRight #help ul span {
+            font-size: 0.12rem;
+            height: 0.22rem;
+            line-height: 0.22rem;
+            color: #999; }
+            .nheader .topbanner .topbannerRight #help ul li a, .nheader .topbanner .topbannerRight #help ul span a {
+              color: #666; }
+              .nheader .topbanner .topbannerRight #help ul li a:hover, .nheader .topbanner .topbannerRight #help ul span a:hover {
+                color: #f8a120; }
+      .nheader .topbanner .topbannerRight .shoppingCar {
+        position: absolute;
+        top: 50%;
+        right: 0rem; }
+  .nheader .nav-bar {
+    width: 11.99rem;
+    height: 0.44rem;
+    background: #1a191e;
+    padding: 0 0.32rem; }
+    .nheader .nav-bar .nav li {
+      line-height: 0.44rem;
+      font-size: 0.14rem;
+      float: left;
+      padding-left: 0.4rem; }
+      .nheader .nav-bar .nav li a {
+        color: white; }
+    .nheader .nav-bar .search {
+      width: 2.24rem;
+      height: 0.38rem;
+      background: white;
+      float: right;
+      margin: 0.03rem 0; }
+      .nheader .nav-bar .search input {
+        height: 100%;
+        width: 1.85rem;
+        border: 0;
+        margin-left: 0.1rem; }
+      .nheader .nav-bar .search a {
+        float: right;
+        margin-top: 0.07rem;
+        margin-right: 0.11rem; }
+      .nheader .nav-bar .search img {
+        width: 0.16rem;
+        height: 0.16rem; }
+
+.banner {
+  position: relative;
+  padding: 0.2rem 0.32rem;
+  margin-bottom: 0.77rem; }
+  .banner .arr {
+    position: absolute;
+    width: 0.36rem;
+    height: 0.7rem;
+    z-index: 9999;
+    background-size: 0.36rem 0.7rem;
+    opacity: 0;
+    top: 2.42rem;
+    transition: 0.3s; }
+    .banner .arr:hover {
+      cursor: pointer; }
+  .banner #arrLeft {
+    background: #fff url(../images/arr-left.png) center center no-repeat;
+    left: 0.34rem; }
+  .banner #arrRight {
+    background: #fff url(../images/arr-right.png) center center no-repeat;
+    right: 0.34rem; }
+  .banner #bannerButton {
+    text-align: center; }
+    .banner #bannerButton span {
+      display: inline-block;
+      line-height: 0.42rem;
+      width: 0.2rem;
+      height: 3px;
+      background: #ccc; }
+  .banner #slider {
+    width: 12rem;
+    height: 5rem;
+    position: relative; }
+    .banner #slider img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0; }
+
+#webBody {
+  padding-left: 0.32rem;
+  width: 11.99rem;
+  margin-bottom: 0.76rem; }
+  #webBody a {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 5.89rem;
+    height: 4.5rem;
+    float: left; }
+    #webBody a div {
+      height: 3.3rem;
+      overflow: hidden; }
+      #webBody a div img {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        transition: 0.5s; }
+      #webBody a div div {
+        transform: rotateY(90deg);
+        transition: 0.5s; }
+      #webBody a div:hover div {
+        transform: rotateY(0deg); }
+    #webBody a h3 {
+      z-index: 9;
+      position: relative;
+      padding: 0.2rem 0 0.12rem;
+      font-size: 0.26rem;
+      font-weight: normal;
+      transition: 0.5s;
+      box-shadow: 0px -3px 0px rgba(248, 161, 32, 0); }
+    #webBody a:hover h3 {
+      box-shadow: 0px -3px 0px #f8a120;
+      color: #f8a120; }
+    #webBody a:hover img {
+      margin-top: -0.165rem;
+      margin-left: -0.3rem;
+      width: 110%;
+      height: 110%; }
+
+.recommend {
+  padding: 0 0.32rem; }
+  .recommend .title {
+    border-top: 1px solid #f8a120;
+    position: relative; }
+    .recommend .title #like {
+      position: absolute;
+      display: block;
+      width: 1.6rem;
+      height: 0.26rem;
+      font-size: 0.26rem;
+      text-align: center;
+      left: 5.195rem;
+      top: -0.13rem;
+      background: white; }
+    .recommend .title .arrSS {
+      position: absolute;
+      width: 0.13rem;
+      height: 100%;
+      z-index: 9999;
+      background-size: 0.36rem 0.7rem;
+      opacity: 0;
+      top: 0;
+      transition: 0.3s; }
+    .recommend .title:hover div {
+      opacity: 1; }
+    .recommend .title #arrSubLeft {
+      background: #fff url(../images/arr-left.png) center center no-repeat;
+      left: -0.14rem; }
+      .recommend .title #arrSubLeft:hover {
+        cursor: pointer; }
+    .recommend .title #arrSubRight {
+      background: #fff url(../images/arr-right.png) center center no-repeat;
+      right: -0.14rem; }
+      .recommend .title #arrSubRight:hover {
+        cursor: pointer; }
+  .recommend #subSlider {
+    width: 12rem;
+    height: 3.1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden; }
+    .recommend #subSlider li {
+      width: 2.5rem;
+      position: absolute; }
+      .recommend #subSlider li img {
+        width: 100%;
+        margin-bottom: 0.3rem;
+        vertical-align: middle; }
+      .recommend #subSlider li h4 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 0.32rem;
+        font-size: 0.18rem;
+        font-weight: normal; }
+  .recommend #subSliderButton {
+    text-align: center; }
+    .recommend #subSliderButton span {
+      display: inline-block;
+      width: 0.2rem;
+      height: 3px;
+      background: #ccc; }
+
+.nfooter {
+  margin-top: 0.7rem;
+  background: #f5f5f5;
+  padding: 0.4rem 0.3rem; }
+  .nfooter li {
+    float: left;
+    width: 2.36rem; }
+    .nfooter li a {
+      line-height: 0.32rem;
+      font-size: 0.14rem;
+      font-weight: normal; }
+      .nfooter li a:hover {
+        color: #f8a120; }
+  .nfooter .nfooter-info {
+    float: left;
+    font-size: 0.14rem;
+    line-height: 0.36rem;
+    margin-top: 0.25rem; }
+    .nfooter .nfooter-info p span {
+      margin-right: 0.32rem; }
+    .nfooter .nfooter-info .nfooter-info-imgs {
+      margin-top: 0.08rem; }
+      .nfooter .nfooter-info .nfooter-info-imgs img {
+        width: 1.08rem;
+        height: 0.4rem;
+        margin-right: 0.2rem; }

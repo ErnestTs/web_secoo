@@ -1,0 +1,18 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,button,select{padding:0;margin:0}
+body{font:12px/20px "微软雅黑","simsun";color:#333;overflow-x:hidden;}
+img{vertical-align:middle;border:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#333;}
+/*a:hover{color:red !important;}*/
+input:focus,textarea:focus,button:focus{outline: none;}
+input[type="button"],input[type="submit"],input[type="file"],input[type="reset"],button{cursor:pointer;}
+/*********************common***************************/
+.cl:after{content:"";display:block;clear:both;overflow:hidden;height:0;visibility:hidden;}
+.cl{zoom:1;}
+.gwidth{width: 1200px;margin: auto;}
+.text-overflow{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.block{display:block;}
+html{font-size:calc(100vw / 12.63);font-size:-webkit-calc(100vw / 12.63);}
+body{font-size:.12rem;}
+/************************************************/
